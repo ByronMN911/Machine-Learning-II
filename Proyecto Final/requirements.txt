@@ -1,0 +1,34 @@
+# Dependencias del proyecto - Sistema de Reconocimiento Facial (Gimnasio)
+# Entorno recomendado: Python 3.11 (conda), instalar TODO con pip en un solo paso.
+#
+# Uso:
+#   1. Crear el entorno en Anaconda Navigator con Python 3.11.
+#   2. Abrir una terminal DENTRO de ese entorno (Open Terminal).
+#   3. Ejecutar:  pip install -r requirements.txt
+#
+# Comparte este mismo archivo con tus 13 compañeros de equipo para que todos
+# instalen exactamente las mismas versiones y nadie tenga que pasar por este
+# mismo proceso de depuración por separado.
+
+# --- Núcleo numérico / compatibilidad (versiones fijadas para evitar conflictos) ---
+numpy==1.26.4
+opencv-python==4.10.0.84
+
+# --- Motor de Machine Learning / reconocimiento facial ---
+tensorflow==2.17.0
+tf-keras==2.17.0
+deepface
+
+# --- Jupyter (para correr los notebooks) ---
+jupyter
+ipykernel
+
+# --- Librerías usadas en Machine Learning I (EDA / preparación de datos con CelebA) ---
+pandas
+matplotlib
+seaborn
+scikit-learn
+scikit-image
+scipy
+tqdm
+opendatasets
